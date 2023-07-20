@@ -74,6 +74,7 @@ ul{
     letter-spacing: 0.02em;
     color: var(--primary-grey-color);
     text-decoration: none;
+    display: flex;
 }
 
 .header-feedback-link:hover,
@@ -100,11 +101,11 @@ ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-left: 940px;
+    margin-left: 332px;
     margin-top: 24px;
     margin-bottom: 24px;
-
-    gap: 40px;
+    margin-right: 347px;
+gap: 40px;
     
 }
 
@@ -117,6 +118,7 @@ ul{
     font-style: normal;
     display: flex;
     align-items: center;
+    gap: 40px;
     
 }
 
@@ -131,6 +133,8 @@ ul{
     padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid red;
+    align-items: center;
+    justify-items: center;
     
 }
 .section{
@@ -296,10 +300,6 @@ padding-right: 558px;
 .footer {
     background-color: var(--primary-accent-color);
     width: 1440px;
-        height: 312px;
-        flex-shrink: 0;
-        align-items: center;
-
 }
 
 .footer-logo-link {
@@ -332,6 +332,8 @@ padding-right: 558px;
         color: var(--primary-whiter-color);
         background-color: var(--primary-accent-color);
         padding: 140px 1020px 100px 156px;
+        display: inline-flex;
+        align-items: center;
     }
 
     /** ------------------PORTFOLIO----------------- */
