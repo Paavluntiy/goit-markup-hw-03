@@ -7,6 +7,8 @@
         --primary-grey-color: #434455;
         --primary-blue-color: #4D5AE5;
         --primary-whiter-color: #F4F4FD;
+        --cornflower-color: #E7E9FC;
+        --white-color: #FFF; 
 
 
 }
@@ -15,9 +17,31 @@ body {
     color: var(--primary-grey-color);
     background-color: var(--primary-white-color);
 }
-
+p, h1, h2, h3, h4, h5, h6{
+margin-bottom: 0;
+    margin-top: 0;
+}
+img{
+    display: block;
+}
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 /** ------------------HEADER----------------- */
+
+.main{
+    flex-grow: 1;
+}
+.header{
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    padding-left: 156px;
+    border-bottom: 1px solid var(--cornflower-color);
+        background: var(--white-color);
+}
 
 .header-logo-link {
     font-family: 'Raleway', sans-serif;
@@ -28,6 +52,7 @@ body {
     text-decoration: none;
     color: var(--primary-blue-color);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo-iris {
@@ -55,7 +80,11 @@ body {
 .header-feedback-link:focus {
     color: var(--secondary-accent-color);
 }
-
+.header-navigation{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 .header-about-text-link:hover,
 .header-about-text-link:focus {
     color: var(--secondary-accent-color);
@@ -63,10 +92,20 @@ body {
 
 .header-about-list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .header-feedback-list {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 940px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    gap: 40px;
+    
 }
 
 .header-about-text-link {
@@ -75,11 +114,37 @@ body {
 }
 
 .adress-navigation {
-    font-style: normal
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    
 }
 
 /** ------------------MAIN----------------- */
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    
+}
+.section{
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    gap: 24px;
+    align-items: center;
+    
 
+}
 .hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -89,9 +154,14 @@ body {
     background-color: var(--primary-accent-color);
     color: var(--primary-white-color);
 }
-
-.hero {
+.hero-title-wrap{
     background-color: var(--primary-accent-color);
+    padding: 188px 472px 292px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.hero {
+    padding-bottom: 120px;
 }
 
 .hero-button {
@@ -103,6 +173,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--primary-white-color);
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .hero-button:hover {
@@ -132,8 +205,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-accent-color);
+    margin-bottom: 8px;
+    gap: 24px;
 }
-
+.advantages-list-item{
+    padding-left: 156px;
+}
 .advantages-item-text {
     font-size: 16px;
     line-height: 1.5;
@@ -143,6 +220,9 @@ body {
 
 .advantages-list {
     list-style-type: none;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
 }
 
 .heading-title {
@@ -153,6 +233,10 @@ body {
     text-align: center;
     color: var(--primary-accent-color);
     text-transform: capitalize;
+display: flex;
+padding-bottom: 72px;
+padding-left: 559px;
+padding-right: 558px;
 }
 
 .about-team {
@@ -164,14 +248,22 @@ body {
     color: var(--primary-accent-color);
     text-transform: capitalize;
     background-color: var(--primary-whiter-color);
+    margin-bottom: 72px;
 }
 
 .workers-list {
     list-style-type: none;
+    display: flex;
+    margin-bottom: 120px;
+    gap: 24px;
+    padding-left: 156px;
 }
-
+.work-examples{
+    padding-bottom: 120px;
+}
 .work-examples-item {
     list-style-type: none;
+    gap: 24px;
 }
 .workers{
     background-color: var(--primary-whiter-color);
@@ -187,7 +279,11 @@ body {
 .workers-list-item {
     background-color: var(--primary-white-color);
 }
-
+.work-examples-list{
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+}
 
 .workers-item-text {
     font-size: 16px;
@@ -199,6 +295,11 @@ body {
 /** ------------------FOOTER----------------- */
 .footer {
     background-color: var(--primary-accent-color);
+    width: 1440px;
+        height: 312px;
+        flex-shrink: 0;
+        align-items: center;
+
 }
 
 .footer-logo-link {
@@ -210,7 +311,13 @@ body {
     text-decoration: none;
     color: var(--primary-blue-color);
     background-color: var(--primary-accent-color);
-    text-transform: uppercase
+    text-transform: uppercase;
+    display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 100px 1169px 188px 156px;
+        margin-bottom: 16px;
 }
 
 .footer-logo-link-iris {
@@ -224,6 +331,7 @@ body {
         letter-spacing: 0.02em;
         color: var(--primary-whiter-color);
         background-color: var(--primary-accent-color);
+        padding: 140px 1020px 100px 156px;
     }
 
     /** ------------------PORTFOLIO----------------- */
@@ -236,6 +344,12 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         font-family: var(--primary-font);
+        padding: 12px 24px;
+        justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+                border: 1px solid var(--cornflower-color);
+                
     }
 
     .all-button:focus,
@@ -254,13 +368,20 @@ body {
 
 
     .all-button-list {
-        list-style: none
+        list-style: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 72px;
+        margin-top: 30px;
     }
 
     .all-portfolio-list {
         list-style: none;
         text-decoration: none;
-
+        margin-bottom: 48px;
+        margin-right: 24px;
+    
     }
 
         .portfolio-title {
@@ -269,11 +390,17 @@ body {
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--primary-accent-color);
+            margin-top: 32px;
+            margin-bottom: 8px;
         }
 
-        .portfolio-examples-list {
+        .portfolio-examples-item {
             text-decoration: none;
             list-style: none;
+            margin-bottom: 80px;
+            display: inline-flex;
+            
+
         }
 
         .portfolio-text {
@@ -283,5 +410,6 @@ body {
             color: var(--primary-grey-color);
         }
         .portfolio-link{
+
             text-decoration: none;
         }
