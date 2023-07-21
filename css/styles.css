@@ -53,6 +53,7 @@ ul{
     color: var(--primary-blue-color);
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-logo-iris {
