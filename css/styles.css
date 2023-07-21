@@ -113,6 +113,7 @@ gap: 40px;
 .header-about-text-link {
     text-decoration: none;
     color: var(--primary-accent-color);
+    padding: 24px 0;
 }
 
 .adress-navigation {
