@@ -135,6 +135,13 @@ gap: 40px;
     justify-items: center;
     
 }
+.header-container{
+    display: flex;
+    max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+}
 .section{
     width: 100%;
     max-width: 1158px;
