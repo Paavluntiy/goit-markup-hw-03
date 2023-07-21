@@ -404,8 +404,6 @@ margin-bottom: 72px;
     .all-portfolio-list {
         list-style: none;
         text-decoration: none;
-        margin-bottom: 48px;
-        margin-right: 24px;
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
