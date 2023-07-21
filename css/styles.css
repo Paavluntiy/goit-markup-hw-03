@@ -18,16 +18,15 @@ body {
     background-color: var(--primary-white-color);
 }
 p, h1, h2, h3, h4, h5, h6{
-margin-bottom: 0;
-    margin-top: 0;
+margin: 0;
+padding: 0;
 }
 img{
     display: block;
 }
 ul{
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /** ------------------HEADER----------------- */
@@ -128,24 +127,22 @@ gap: 40px;
     box-sizing: border-box;
 }
 .container{
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    align-items: center;
-    justify-items: center;
     
 }
-
+.flex{
+    display: flex;
+align-items: center;
+    justify-items: center;
+}
 .section{
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    gap: 24px;
-    align-items: center;
 }
     
 .hero{
