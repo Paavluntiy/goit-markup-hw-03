@@ -443,7 +443,7 @@ margin-bottom: 72px;
             text-decoration: none;
         }
         .portfolio-item{
-            padding: 32px 16px;
+            padding: 32px 0;
             border: 1px solid #e7e9fc;
             border-top: none;
         }
