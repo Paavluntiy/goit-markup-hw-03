@@ -250,10 +250,6 @@ align-items: center;
     text-align: center;
     color: var(--primary-accent-color);
     text-transform: capitalize;
-display: flex;
-padding-bottom: 72px;
-padding-left: 559px;
-padding-right: 558px;
 margin-bottom: 72px;
 }
 
@@ -310,7 +306,6 @@ margin-bottom: 72px;
 .work-examples-list{
     display: flex;
     gap: 24px;
-    padding-left: 156px;
 }
 
 .workers-item-text {
