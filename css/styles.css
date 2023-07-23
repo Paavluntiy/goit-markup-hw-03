@@ -35,11 +35,6 @@ ul{
     flex-grow: 1;
 }
 .header{
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-    padding-left: 156px;
-    border-bottom: 1px solid var(--cornflower-color);
-        background: var(--white-color);
 }
 
 .header-logo-link {
@@ -66,7 +61,6 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .header-feedback-link {
@@ -102,9 +96,7 @@ ul{
     display: flex;
     align-items: center;
     margin-left: 332px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-right: 347px;
+   
 gap: 40px;
     
 }
@@ -136,7 +128,7 @@ gap: 40px;
 .flex{
     display: flex;
 align-items: center;
-    justify-content: center;
+    
 }
 .section{
     width: 1158px;
@@ -147,6 +139,7 @@ align-items: center;
     
 .hero{
     padding: 188px 0;
+    background-color: var(--primary-accent-color);
 }
 .hero-title {
     font-size: 56px;
@@ -157,11 +150,10 @@ align-items: center;
     background-color: var(--primary-accent-color);
     color: var(--primary-white-color);
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .hero-title-wrap{
-    background-color: var(--primary-accent-color);
-    padding: 188px 472px 292px;
-    margin-bottom: 48px;
     text-align: center;
 }
 
@@ -180,6 +172,7 @@ align-items: center;
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
 }
 
 .hero-button:hover {
@@ -223,11 +216,16 @@ align-items: center;
     color: var(--primary-grey-color);
 }
 
-.advantages-list {
+.all-advantages-list {
     list-style-type: none;
     display: flex;
     gap: 24px;
     padding: 120px 0;
+}
+.advantages-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 .visually-hidden {
     position: absolute;
@@ -318,9 +316,7 @@ margin-bottom: 72px;
 /** ------------------FOOTER----------------- */
 .footer {
     background-color: var(--primary-accent-color);
-    width: 1440px;
     padding: 100px 0;
-
 }
 
 .footer-logo-link {
@@ -348,7 +344,7 @@ margin-bottom: 72px;
         letter-spacing: 0.02em;
         color: var(--primary-whiter-color);
         background-color: var(--primary-accent-color);
-        max-width: 264px
+        max-width: 264px;
     }
 
     /** ------------------PORTFOLIO----------------- */
