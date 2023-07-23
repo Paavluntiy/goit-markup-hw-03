@@ -35,6 +35,7 @@ ul{
     flex-grow: 1;
 }
 .header{
+    border-bottom: 1px solid var(--cornflower-color);
 }
 
 .header-logo-link {
