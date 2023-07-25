@@ -204,7 +204,6 @@ align-items: center;
     letter-spacing: 0.02em;
     color: var(--primary-accent-color);
     margin-bottom: 8px;
-    text-align: center;
 }
 .advantages-list-item{
     width: calc((100% - 72px) / 4);
@@ -289,6 +288,7 @@ margin-bottom: 72px;
     background-color: var(--primary-white-color);
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
     
 }
 .section-workers{
